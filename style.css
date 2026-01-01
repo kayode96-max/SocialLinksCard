@@ -54,22 +54,25 @@ ul{
 }
 a{
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
+    color: inherit;
 }
-
-a li:hover{
+li:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
 }
-a li{
+
+ li{
     background-color: hsl(0, 0%, 20%);
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 6px;
     display: flex;
+    width: 100%;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
     font-weight: 600;
+    color: hsl(0, 0%, 100%);
 }
 .attribution a{
     font-size: 11px;
